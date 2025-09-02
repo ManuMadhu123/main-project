@@ -1,0 +1,77 @@
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    anaj:
+      email: anajpravin@gmail.com
+      first_name: Anaj
+      last_name: pravin
+      logged_in: false
+      password: $2b$12$.zGPWzJS5vrageAlJNwFk.1xAk/58kcCZV6FTsyYUVu06xbLl94B.
+      password_hint: An
+      roles: null
+    arun:
+      email: ak@gmail.com
+      first_name: arun
+      last_name: arun
+      logged_in: false
+      password: $2b$12$xOhTkiFIVav66/G.vm6vue1BSsQdL8HcCXFdgyc.hkS5qW2WGRxPa
+      password_hint: qwerty
+      roles: null
+    arun@gmail.com:
+      email: arun@gmail.com
+      first_name: arun
+      last_name: arun
+      logged_in: false
+      password: $2b$12$XdxasaDjkCzrteycahk1T.Ly7v613vFBgQFCYqNbxFtMqY.iuY8Ne
+      password_hint: asd
+      roles: null
+    jsmith:
+      email: jsmith@gmail.com
+      failed_login_attempts: 0
+      logged_in: false
+      name: John Smith
+      password: $2b$12$17TK3NMmplkzgXoG9dP/eeEYBrD3Mgf2s8ekVCtp7HND0w/T.PBP.
+      roles:
+      - admin
+      - editor
+      - viewer
+    leo:
+      email: leo@gmail.com
+      first_name: leo
+      last_name: antony
+      logged_in: false
+      password: $2b$12$mihjZZKtd/S614cesJhoFOGW5AV9dVAsr7XtlZe08nAJHFS0R2OIO
+      password_hint: name123@
+      roles: null
+    manu:
+      email: manumadhu@gmail.com
+      first_name: manu
+      last_name: madhu
+      logged_in: false
+      password: $2b$12$dSdUqGwo9T5Kgw7Oc7jVqe49yG/xTJiJNp8HnnN4r0d8fd17gfI.u
+      password_hint: name
+      roles: null
+    rbriggs:
+      email: rbriggs@gmail.com
+      failed_login_attempts: 0
+      logged_in: false
+      name: Rebecca Briggs
+      password: $2b$12$iMmXi53SfGjLfuez32V6aeqHO2mi3mrbHpUjhUSOmoGvJxh73hJhu
+      roles:
+      - viewer
+oauth2:
+  google:
+    client_id: null
+    client_secret: null
+    redirect_uri: null
+  microsoft:
+    client_id: null
+    client_secret: null
+    redirect_uri: null
+    tenant_id: null
+pre-authorized:
+  emails:
+  - melsby@gmail.com
