@@ -17,6 +17,8 @@ from dotenv import load_dotenv
 import os
 import google.generativeai as genai
 import pyttsx3
+import comtypes
+comtypes.CoInitialize()
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 
